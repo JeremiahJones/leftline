@@ -1,6 +1,6 @@
 namespace :populate_default_settings do
   desc 'Populate default settings for games'
-  task pubg_settings: :environment do
+  task pubg: :environment do
     puts "\rPopulating pubg default settings"
     DefaultSetting.create(game: 'pubg',
                           settings: {

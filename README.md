@@ -1,24 +1,9 @@
-# README
+Rails api to keep track of configurations for video games and help left handed people find common configurations
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
+Run both react and rails server at the same time run:
+`rake start`
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+to populate default settings (see rake task to create more):
+`rake populate_default_settings:pubg`
